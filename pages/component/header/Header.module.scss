@@ -1,0 +1,20 @@
+.Header{
+    margin: 20px;
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.HeaderLeft{
+    display: flex;
+    justify-content: space-evenly;
+    width: 30%;
+}
+.Circle{
+width: 10px;
+height: 10px;
+margin: 7px;
+
+background: linear-gradient(135.97deg, #113FF5 -22.54%, #812BFE 125%);
+border-radius: 30px;
+}

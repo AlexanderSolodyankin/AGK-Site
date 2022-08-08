@@ -1,0 +1,55 @@
+.Slide1{
+    width: 500px;
+    height: 600px;
+    // background-color: rgb(171, 209, 1);
+    // color: black;
+    display: flex;
+    justify-content: space-between;
+}
+.ImgLogo{
+    background: url("./media_slide_1/GK\ лого.png") no-repeat;
+    width: 460px;
+    height: 135px;
+    margin-top: 100px;
+}
+.ImgPhone{
+    background: url('./media_slide_1/Group\ 165.png') no-repeat;
+    width: 500px;
+    height: 500px;
+}
+.Title{
+    font-size: 57px;
+    text-align: center;
+    box-shadow:inset 40px 40px 0 8px #23262B,
+    0 15px 5px -3px rgba(143, 51, 213, 0.75);    
+    background: linear-gradient(270.2deg, #F35635 0%, #772BFC 100%) ;
+
+
+
+
+    // position: absolute;
+// width: 412px;
+// height: 29px;
+// left: 303px;
+// top: 380px;
+
+// background: linear-gradient(270.2deg, #F35635 0%, #772BFC 100%);
+/* Тень 2 */
+
+// box-shadow: -2px 7px 15px rgba(143, 51, 213, 0.75);
+   
+}
+.Element1{
+
+    padding: 50px;
+
+    display: flex;
+    flex-direction: column;
+    
+}
+.ContentText{
+    // text-align: center;
+    padding: 0;
+    padding-left: 30px;
+    font-size: 21px;
+}

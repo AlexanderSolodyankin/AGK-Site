@@ -1,0 +1,161 @@
+#slider{
+    /* Положение слайдера */
+    position: relative;
+    text-align: center;
+    top: 10px;
+}
+
+#slider{
+    /* центровка слайдера */
+    margin: 0 auto;
+}
+
+#slider article{
+    /* Все изоброжения справа друг от друга */
+    width: 20%;
+    float: left;
+}
+
+#slider .image{
+    /* Общий размер блока с изоброжениями */
+    width: 50%;
+    line-height: 0;
+}
+
+#overflow{
+    /* скрываем все что находится за пределами данного блока  */
+     width: 100%;
+     overflow: hidden;
+}
+
+article img{
+    /* размер изоброжений слайдера */
+    width: 100%;
+}
+
+#desktop:checked ~ #slider{
+    /* размер всего слайдера 
+    и его максимаьная длина*/
+    max-width: 960px;
+}
+#switch1:checked ~ #controls label:nth-child(7),
+#switch1:checked ~ #controls label:nth-child(1),
+#switch1:checked ~ #controls label:nth-child(2),
+#switch1:checked ~ #controls label:nth-child(3),
+#switch1:checked ~ #controls label:nth-child(4),
+#switch1:checked ~ #controls label:nth-child(5),
+#switch1:checked ~ #controls label:nth-child(6){
+    background: url('prev.png') no-repeat;
+    float: left;
+    margin: 0 0 0 -84px;
+    display: block;
+    height: 68px;
+    width: 68px;
+}
+#switch1:checked ~ #controls label:nth-child(7),
+#switch1:checked ~ #controls label:nth-child(1),
+#switch1:checked ~ #controls label:nth-child(2),
+#switch1:checked ~ #controls label:nth-child(3),
+#switch1:checked ~ #controls label:nth-child(4),
+#switch1:checked ~ #controls label:nth-child(5),
+#switch1:checked ~ #controls label:nth-child(6){
+    background: url('next.jpg') no-repeat;
+    float: right;
+    margin: 0 -80px 0 0;
+    display: block;
+    height: 68px;
+    width: 68px;
+}
+
+label, a{
+    /* смена курсора на палец */
+    cursor: pointer;
+}
+
+.all input{
+    /* скрытие других боксов */
+    display: none;
+}
+
+#switch1:checked ~ #slides .image{
+    margin-left: 0;
+}
+
+#switch2:checked ~ #slides .image{
+    margin-left: 100%;
+}
+
+#switch3:checked ~ #slides .image{
+    margin-left: 200%;
+}
+
+#switch4:checked ~ #slides .image{
+    margin-left: 300%;
+}
+
+#switch5:checked ~ #slides .image{
+    margin-left: 400%;
+}
+
+#switch6:checked ~ #slides .image{
+    margin-left: 500%;
+}
+#switch1:checked ~ #slides .image{
+    margin-left: 600%;
+}
+#switch7:checked ~ #slides .image{
+    margin-left: 700%;
+}
+
+#controls{
+    /* Положение все уровляющих блоков */
+    margin: -25% 0 0 0 ;
+    width: 100%;
+    height: 50px;
+}
+
+#active label{
+    border-radius: 10px;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background: #bbb;
+}
+
+#active{
+    margin: 23% 00 ;
+    text-align: center;
+}
+
+#active label:hover{
+    background: #76c8ff;
+    border-color: #777 !important;
+
+}
+
+ #switch1:checked ~ #active label:nth-child(1),
+ #switch2:checked ~ #active label:nth-child(2),
+ #switch3:checked ~ #active label:nth-child(3),
+ #switch4:checked ~ #active label:nth-child(4),
+ #switch5:checked ~ #active label:nth-child(5),
+ #switch6:checked ~ #active label:nth-child(6),
+ #switch7:checked ~ #active label:nth-child(7){
+    /* Цвет активного чекбоса */
+    background: #18a3dd;
+    border-color: #18a3dd !important;
+
+ }
+
+ #slides .image{
+    /* Анимация пролистывания изоброжения  */
+    transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+ }
+
+ #controls label:hover{
+    /* Прозрачность стреллок при наведени */
+    opacity: 0.6;
+ }
+
+ #controls label{
+    transition: opacity 0.2s ease-out;
+ }
