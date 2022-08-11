@@ -6,6 +6,8 @@ import "swiper/css";
 import "swiper/css/pagination";
 import { Mousewheel, Pagination } from "swiper";
 
+import Title from './components_slides/title/Title';
+
 function Content() {
   return (
     <div className={Styles.Content}>
@@ -22,12 +24,9 @@ function Content() {
          className={Styles.Sliders}
        >
 
-        <SwiperSlide>Slide1</SwiperSlide>
-        <SwiperSlide>Slide2</SwiperSlide>
-        <SwiperSlide>Slide3</SwiperSlide>
-        <SwiperSlide>Slide4</SwiperSlide>
-        <SwiperSlide>Slide5</SwiperSlide>
-        <SwiperSlide>Slide6</SwiperSlide>
+        <SwiperSlide>
+          <Title  content="ЛЕНДИНГ"/>
+        </SwiperSlide>
 
         </Swiper>
     </div>

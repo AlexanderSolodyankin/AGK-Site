@@ -1,0 +1,26 @@
+.red{
+    color: red;
+}
+.white{
+   
+    color: wheat;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 57px;
+    line-height: 67px;
+}
+.line_font{
+    background: linear-gradient(270.2deg, #F35635 0%, #772BFC 100%);
+    width: 519px;
+    height: 29px;
+    box-shadow: 5px 7px 20px rgba(143, 51, 213, 0.75);
+    margin-top: -98px;
+    margin-left: 82px;
+    z-index: -1;
+
+}
