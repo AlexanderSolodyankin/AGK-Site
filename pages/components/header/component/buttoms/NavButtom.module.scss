@@ -1,0 +1,24 @@
+.NavButtom{
+    margin: 20px;
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    a{
+        text-decoration: none;
+        color: aliceblue;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 17px;
+    }
+}
+
+
+.Circle{
+    width: 10px;
+    height: 10px;
+    margin: 7px;    
+    background: linear-gradient(135.97deg, #113FF5 -22.54%, #812BFE 125%);
+    border-radius: 30px;
+    }
