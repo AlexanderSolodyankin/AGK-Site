@@ -9,6 +9,7 @@ const styleProps = (props) => {
 const Title = (props) => {
   return (
     <div className={Styles.text}>
+      <div></div>
         <h2 className={styleProps(props)}>
           {props.content}
         </h2>

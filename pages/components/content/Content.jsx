@@ -6,10 +6,12 @@ import "swiper/css";
 import "swiper/css/pagination";
 import { Mousewheel, Pagination } from "swiper";
 
-import Title from './components_slides/title/Title';
+import Slider from './slider/Slider';
+import Slider3 from './slider/Slider3';
 
 function Content() {
-  return (
+
+ return (
     <div className={Styles.Content}>
         <Swiper
          direction={"vertical"}
@@ -23,9 +25,11 @@ function Content() {
          class="mySwiper"
          className={Styles.Sliders}
        >
-
         <SwiperSlide>
-          <Title  content="ЛЕНДИНГ"/>
+          <Slider3 slide3/>
+        </SwiperSlide>
+        <SwiperSlide>
+          <Slider3 />
         </SwiperSlide>
 
         </Swiper>

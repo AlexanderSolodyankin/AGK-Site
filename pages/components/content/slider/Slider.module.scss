@@ -1,0 +1,31 @@
+.Other{
+    .Slider{
+        display: flex;
+        justify-content: space-around;
+    
+    }
+    .Discript{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .img{
+    }
+}
+
+.Slider3{
+    .Slider{
+        display: flex;
+        justify-content: space-around;
+    
+    }
+    .Discript{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        
+    }
+    .img{
+        height: 600px;
+    }
+}
