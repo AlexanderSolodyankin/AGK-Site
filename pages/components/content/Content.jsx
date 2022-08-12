@@ -16,7 +16,7 @@ function Content() {
         <Swiper
          direction={"vertical"}
          slidesPerView={1}
-         spaceBetween={300}
+         spaceBetween={30}
          mousewheel={true}
          pagination={{
            clickable: true

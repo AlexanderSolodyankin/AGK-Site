@@ -2,18 +2,21 @@ import React from 'react';
 import Styles from './Title.module.scss';
 
 const styleProps = (props) => {
-  if(props.red) return (Styles.red)
-  else return(Styles.white)
+  console.log("Пришло " + props )
+  if(props.Blue) return (Styles.line_blue)
+  
+  else return(Styles.line_font)
 }
+
 
 const Title = (props) => {
   return (
     <div className={Styles.text}>
       <div></div>
-        <h2 className={styleProps(props)}>
+        <h2 className={Styles.white}>
           {props.content}
         </h2>
-        <div className={Styles.line_font}></div>
+        <div className={styleProps(props)}></div>
     </div>
   )
 }

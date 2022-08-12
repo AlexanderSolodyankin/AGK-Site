@@ -18,7 +18,7 @@ const Slider = (props) => {
   return (
     <div className={Styles.Slider}>
         <div className={Styles.Discript}>
-        <Title content={props.Title}/>
+        <Title Bed content={props.Title}/>
         <Subscript content={props.Subscript}/>
         </div>
         <Image src={img.src}
