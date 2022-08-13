@@ -24,7 +24,7 @@ const Slider3 = (props) => {
     <div className={SlideStyle(props)}>
       <div className={Styles.Slider}>
         <div className={Styles.Discript}>
-          <Title content="ПОКАЗАТЕЛИ" />
+          <Title Bed content="ПОКАЗАТЕЛИ" />
           <Subscript content="Какой тип сайта Вы не выберете для своего бизнеса, можете быть уверены, что он будет отвечать всем современным требованиям." />
           <Subscript content="- легкое управление через CMS" />
           <Subscript content="- адаптивный дизайн" />
