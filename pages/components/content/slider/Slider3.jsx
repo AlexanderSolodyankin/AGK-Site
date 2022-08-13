@@ -14,7 +14,7 @@ const Slider3 = (props) => {
     <div className={Styles.Slider3}>
       <div className={Styles.Slider}>
         <div className={Styles.Discript}>
-          <Title Bed content="ПОКАЗАТЕЛИ" />
+          <Title Blue content="ПОКАЗАТЕЛИ" />
           <Subscript content="Какой тип сайта Вы не выберете для своего бизнеса, можете быть уверены, что он будет отвечать всем современным требованиям." />
           <Subscript content="- легкое управление через CMS" />
           <Subscript content="- адаптивный дизайн" />
@@ -24,8 +24,7 @@ const Slider3 = (props) => {
         </div>
         <div>
           <Image src={img.src} width={460} height={581}/>
-            <div className={Styles.img_shodow}>
-            </div>
+            <div className={Styles.img_shodow}></div>
         </div>
       </div>
     </div>

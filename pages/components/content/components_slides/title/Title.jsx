@@ -2,9 +2,7 @@ import React from 'react';
 import Styles from './Title.module.scss';
 
 const styleProps = (props) => {
-  console.log(props == props.Bed)
-  console.log(props)
-  if(props.Bed) return (Styles.line_blue)
+  if(props.Blue) return (Styles.line_blue)
   
   else return(Styles.line_font)
 }
