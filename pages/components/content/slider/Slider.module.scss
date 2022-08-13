@@ -1,8 +1,8 @@
-.Other{
+
     .Slider{
         display: flex;
         justify-content: space-around;
-        padding: 10px;
+        padding: 40px;
     
     }
     .Discript{
@@ -10,45 +10,29 @@
         flex-direction: column;
         
     }
-    .img{
-    }
-}
+
 
 .Slider3{
     .Slider{
+        padding: 45px;
         display: flex;
         justify-content: space-around;
-        height: 700px;
-        // align-items: center;
-    
+        height: 500px;    
     }
     .Discript{
         display: flex;
         flex-direction: column;
-        width: 35%;
-        
+        width: 35%;        
     }
-    .img {
-        // box-shadow: 0px -0px 7px 20px #fff !important;
-    }
-    // .box_shodow{
-    //     overflow: hidden;
-    //     box-shadow: 10px 10px 7px 20px #fff !important;
-    // }
-
     .img_shodow {
         box-shadow: 55px -250px 100px 150px rgb(105, 141, 253, 0.5),
                     -10px -320px 100px 150px rgb(26, 61, 245, 0.5),
                     -75px -250px 100px 150px rgb(105, 141, 253, 0.5),
                     -30px -110px 100px 150px rgb(26, 61, 245, 0.5);
-        // box-shadow: -5px 8px 15px ;
         width: 0px;
         height: 0px;
-
         margin: 0px;
         margin-left: 250px;
         margin-top: -100px;
-
-        // z-index: 9999;
         }
 }

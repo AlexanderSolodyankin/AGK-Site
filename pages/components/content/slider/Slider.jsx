@@ -8,28 +8,22 @@ import Subscript from '../components_slides/subscript/Subscript';
 // import ImegContent from '../components_slides/img-content/ImegContent';
 
 import Image from 'next/image';
-
-import img from '../media/iPad-Pro-Mockup 3.png';
-
-
-
+import Slider3 from './Slider3';
 
 const Slider = (props) => {
   return (
     <div className={Styles.Slider}>
-        <div className={Styles.Discript}>
+        <div className={Styles.Discript}>         
         <Title
         content={props.Title}
         />
-        <Subscript content={props.Subscript}/>
+       <Subscript content={props.Subscript}/>
         </div>
-        <Image src={img.src}
-         width={360}
-         height={281}
-         className={Styles.img}
-        />  
+        <Image src={props.ImgURL} width={props.ImgWidth} height={props.ImgHeight} />  
     </div>
   )
 }
+
+
 
 export default Slider
