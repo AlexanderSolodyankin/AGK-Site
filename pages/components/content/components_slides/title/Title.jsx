@@ -15,7 +15,6 @@ const styleProps = (props) => {
 const Title = (props) => {
   return (
     <div className={Styles.text}>
-      <div></div>
         <h2 className={Styles.white}>
           {props.content}
         </h2>
