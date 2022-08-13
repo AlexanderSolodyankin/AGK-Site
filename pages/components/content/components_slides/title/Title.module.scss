@@ -14,18 +14,62 @@
     height: 29px;
     box-shadow: 5px 7px 20px rgba(143, 51, 213, 0.75);
     margin-top: -98px;
-    margin-left: 82px;
+    margin-left: 62px;
     z-index: -1;
     
 
 }
 .line_blue{
     background: linear-gradient(90.08deg, #698DFD 0.14%, #1A3DF5 100%);
-    width: 519px;
+    width: 500;
     height: 29px;
     box-shadow: 5px 7px 20px rgba(143, 51, 213, 0.75);
     margin-top: -98px;
-    margin-left: 82px;
+    margin-left: 2px;
+    z-index: -1;
+    color: red;
+
+}
+.line_slide4{
+    background: linear-gradient(90.08deg, #772BFC 0.96%, #F35635  100%);
+    width: 475px;
+    height: 30px;
+    box-shadow: 5px 7px 20px rgba(143, 51, 213, 0.75);
+    margin-top: -98px;
+    margin-left: 2px;
+    z-index: -1;
+    color: red;
+
+}
+.line_slide5{
+    background: linear-gradient(90deg,  #7C2BFD 0%, #153EF5 100%);
+    width: 355px;
+    height: 30px;
+    box-shadow: 5px 7px 20px rgba(143, 51, 213, 0.75);
+    margin-top: -98px;
+    margin-left: 2px;
+    z-index: -1;
+    color: red;
+
+}
+.line_slide6{
+    background: linear-gradient(90.08deg, #F35635 0.96%, #772BFC 100%);
+    width: 555px;
+    height: 30px;
+    box-shadow: 5px 7px 20px rgba(143, 51, 213, 0.75);
+    margin-top: -98px;
+    margin-left: 2px;
+    z-index: -1;
+    color: red;
+
+}
+.line_slide7{
+    background: linear-gradient(90deg, #153EF5 0%, #7C2BFD 100%);
+    width: 255px;
+    height: 30px;
+    box-shadow: 5px 7px 20px rgba(143, 51, 213, 0.75);
+    margin-top: -98px;
+    margin-left: 2px;
     z-index: -1;
     color: red;
 

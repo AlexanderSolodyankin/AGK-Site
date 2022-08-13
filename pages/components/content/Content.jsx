@@ -9,6 +9,9 @@ import { Mousewheel, Pagination } from "swiper";
 import Slider1 from './slider/Slider1';
 import Slider3 from './slider/Slider3';
 import Slider4 from './slider/Slider4';
+import Slider5 from './slider/Slider5';
+import Slider6 from './slider/Slider6';
+import Slider7 from './slider/Slider7';
 
 function Content() {
  return (
@@ -46,15 +49,15 @@ function Content() {
         </SwiperSlide>
 
         <SwiperSlide>
-          <h1 className={Styles.test}>Обычный слайд</h1>
+          <Slider5/>
         </SwiperSlide>
 
         <SwiperSlide>
-          <h1 className={Styles.test}>Обычный слайд</h1>
+          <Slider6/>
         </SwiperSlide>
 
         <SwiperSlide>
-          <h1 className={Styles.test}>Слайд с кнопкой</h1>
+        <Slider7/>
         </SwiperSlide>
 
         </Swiper>

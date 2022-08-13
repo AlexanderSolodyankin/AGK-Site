@@ -10,6 +10,13 @@
         flex-direction: column;
         width: 47%;         
     }
+    .img_shodow {
+        width: 0px;
+        height: 0px;
+        margin: 0px;
+        margin-left: 270px;
+        margin-top: -10px;
+    }
 
     .Slider1{
         .img_shodow {
@@ -43,14 +50,48 @@
         }
 
         .img_shodow {
-            box-shadow: 55px -250px 100px 120px rgb(243, 86, 53, 0.5),
-                     -10px -320px 100px 110px  rgb(119, 43, 252, 0.7),
-                     -75px -250px 100px 100px rgb(243, 86, 53, 0.5),
+            box-shadow: 105px -190px 110px 100px rgb(243, 86, 53, 0.5),
+                     0px -210px 90px 110px  rgb(119, 43, 252, 0.7),
+                     -55px -210px 100px 100px rgb(243, 86, 53, 0.5),
                      -30px -110px 100px 130px rgb(119, 43, 252, 0.7);
-            width: 0px;
+            width: 100px;
             height: 0px;
             margin: 0px;
             margin-left: 170px;
             margin-top: -50px;
             }
     }
+    .Slider5{
+        .img_shodow {
+            box-shadow: 95px -220px 100px 140px rgb(105, 141, 253, 0.5),
+            -10px -300px 90px 100px rgb(26, 61, 245, 0.5),
+            -75px -250px 100px 160px rgb(105, 141, 253, 0.5),
+            -30px -110px 100px 160px rgb(26, 61, 245, 0.5);
+            // width: 0px;
+            // height: 0px;
+            // margin: 0px;
+            // margin-left: 270px;
+            // margin-top: -10px;
+            }
+    }
+    .Slider6{
+        .img_shodow {
+            box-shadow: 105px -190px 100px 140px rgb(243, 86, 53, 0.5),
+            0px -200px 90px 100px rgb(119, 43, 252, 0.7),
+            -95px -150px 100px 160px rgb(243, 86, 53, 0.5),
+            -30px -110px 100px 160px rgb(119, 43, 252, 0.7);
+        }
+    }
+    .Slider7{
+        .img_shodow {
+            box-shadow: -100px -200px 100px 140px rgb(21, 62, 245, 0.5),
+            0px -190px 90px 100px rgba(123, 43, 253, 0.637),
+            -140px -50px 100px 160px rgba(123, 43, 253, 0.575);
+            // width: 0px;
+            // height: 0px;
+            // margin: 0px;
+            // margin-left: 270px;
+            // margin-top: -10px;
+            }
+    }
+
