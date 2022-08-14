@@ -6,13 +6,15 @@ const nextConfig = {
         source: '/write',
         destination: '/write',
       },
+      
     ]
   },
   reactStrictMode: true,
   images: {
     loader: 'akamai',
     path: '',
-  }
+  },
+  assetPrefix: './'
 }
 
 
