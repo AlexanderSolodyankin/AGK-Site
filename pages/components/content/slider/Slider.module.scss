@@ -8,6 +8,7 @@
     .Discript{
         display: flex;
         flex-direction: column;
+        justify-content: center;
         width: 47%;         
     }
     .img_shodow {
@@ -19,6 +20,7 @@
     }
 
     .Slider1{
+       
         .img_shodow {
             box-shadow: 55px -250px 100px 170px rgb(243, 86, 53, 0.5),
                      -10px -320px 100px 160px  rgb(119, 43, 252, 0.7),
@@ -31,7 +33,45 @@
             margin-top: -100px;
             }
     }
+    .Slider2_1{
+        .Discript{
+            justify-content: space-evenly;
+            width: 25%;
+        }
+        .img_shodow {
+            box-shadow: -100px -200px 100px 140px rgb(21, 62, 245, 0.5),
+            0px -190px 90px 100px rgba(123, 43, 253, 0.637),
+            -140px -50px 100px 160px rgba(123, 43, 253, 0.575);
+            }
+    }
+    .Slider2_2{
+        .Discript{
+            justify-content: space-evenly;
+            width: 25%;
+        }
+        .img_shodow {
+            box-shadow: -100px -200px 100px 140px rgb(21, 62, 245, 0.5),
+            0px -190px 90px 100px rgba(123, 43, 253, 0.637),
+            -140px -50px 100px 160px rgba(123, 43, 253, 0.575);
+            }
+    }
+    .Slider2_3{
+        .Discript{
+            justify-content: space-evenly;
+            width: 25%;
+        }
+        .img_shodow {
+            box-shadow: -100px -200px 100px 140px rgb(21, 62, 245, 0.5),
+            0px -190px 90px 100px rgba(123, 43, 253, 0.637),
+            -140px -50px 100px 160px rgba(123, 43, 253, 0.575);
+            }
+    }
+
     .Slider3{
+        
+    .Discript{
+        width: 38%; 
+    }
         .img_shodow {
             box-shadow: 55px -250px 100px 150px rgb(105, 141, 253, 0.5),
                         -10px -320px 100px 150px rgb(26, 61, 245, 0.5),
@@ -48,6 +88,9 @@
         .Slider{
             flex-direction: row-reverse;     
         }
+        .Discript{
+            width: 27%;
+        }
 
         .img_shodow {
             box-shadow: 105px -190px 110px 100px rgb(243, 86, 53, 0.5),
@@ -62,6 +105,9 @@
             }
     }
     .Slider5{
+        .Discript{
+            width: 27%;
+        }
         .img_shodow {
             box-shadow: 95px -220px 100px 140px rgb(105, 141, 253, 0.5),
             -10px -300px 90px 100px rgb(26, 61, 245, 0.5),
@@ -75,6 +121,13 @@
             }
     }
     .Slider6{
+        .Slider{
+            flex-direction: row-reverse;     
+        }
+        .Discript{
+            width: 40%;
+        }
+
         .img_shodow {
             box-shadow: 105px -190px 100px 140px rgb(243, 86, 53, 0.5),
             0px -200px 90px 100px rgb(119, 43, 252, 0.7),
@@ -83,6 +136,10 @@
         }
     }
     .Slider7{
+        .Discript{
+            justify-content: space-evenly;
+            width: 25%;
+        }
         .img_shodow {
             box-shadow: -100px -200px 100px 140px rgb(21, 62, 245, 0.5),
             0px -190px 90px 100px rgba(123, 43, 253, 0.637),

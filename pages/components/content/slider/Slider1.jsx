@@ -15,9 +15,10 @@ const Slider1 = (props) => {
     <div className={Styles.Slider1}>
       <div className={Styles.Slider}>
         <div className={Styles.Discript}>
-          <Image src={imgLogo.src} width={0} height={170}/>
+          <Image src={imgLogo.src} width={650} height={196}/>
           <Title content="Media агенство" />
-          <Subscript content="Мы не говорим о себе, а делаем то, что нравится Вашим клиентам, а Вам приносит желаемый результат!" />
+          <Subscript slide1 content="Мы не говорим о себе, а делаем то, что нравится Вашим клиентам, а Вам приносит желаемый результат!" />
+        
         </div>
         <div>
           <Image src={img.src} width={453} height={624}/>
