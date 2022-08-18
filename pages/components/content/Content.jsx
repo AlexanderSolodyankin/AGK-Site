@@ -7,6 +7,7 @@ import "swiper/css/pagination";
 import { Autoplay, Mousewheel, Pagination } from "swiper";
 
 import Slider1 from './slider/Slider1';
+
 import Slider2_1 from './slider/Slider2_1';
 import Slider2_2 from './slider/Slider2_2';
 import Slider2_3 from './slider/Slider2_3';
@@ -16,14 +17,15 @@ import Slider4 from './slider/Slider4';
 import Slider5 from './slider/Slider5';
 import Slider6 from './slider/Slider6';
 import Slider7 from './slider/Slider7';
-import Buttom from './components_slides/buttoms/Buttom';
+
+import Footer from '../footer/Footer';
 
 function Content() {
   return (
     <div className={Styles.Content}>
       <Swiper
         direction={"vertical"}
-        //  spaceBetween={30}
+         spaceBetween={30}
         mousewheel={true}
         pagination={{
           clickable: true
@@ -51,6 +53,7 @@ function Content() {
             navigation={true}
             modules={[Autoplay,]}
             class="mySwiper"
+            className={Styles.Sliders}
           >
             <SwiperSlide>
               <Slider2_1 />
@@ -87,8 +90,8 @@ function Content() {
         <SwiperSlide>
           <Slider7 />
         </SwiperSlide>
-
       </Swiper>
+      
     </div>
   )
 }

@@ -144,11 +144,54 @@
             box-shadow: -100px -200px 100px 140px rgb(21, 62, 245, 0.5),
             0px -190px 90px 100px rgba(123, 43, 253, 0.637),
             -140px -50px 100px 160px rgba(123, 43, 253, 0.575);
-            // width: 0px;
-            // height: 0px;
-            // margin: 0px;
-            // margin-left: 270px;
-            // margin-top: -10px;
+            }
+    }
+    .Slider2_1{
+        .Slider{
+            flex-direction: row-reverse;     
+        }
+        .Discript{
+            justify-content: space-evenly;
+            width: 45%;
+            // align-items: center;
+        }
+        .img_shodow {
+            box-shadow: 0px -300px 90px 160px rgb(105 141 253),
+            10px -262px 90px 160px rgb(105 141 253),
+            -60px -370px 90px 160px rgb(105 141 253);
+            }
+    }
+    .Slider2_2{
+        .Slider{
+            flex-direction: row-reverse;     
+        }
+        .Discript{
+            justify-content: space-evenly;
+            width: 45%;
+            // align-items: center;
+        }
+        .img_shodow {
+            box-shadow: 
+                0px -300px 90px 160px rgb(243 86 53 / 30%),
+                10px -285px 90px 160px rgb(243 86 53 / 50%),
+                10px -263px 90px 160px rgb(120 43 252),
+                -60px -371px 90px 160px rgb(119 43 252);
+            }
+    }
+    .Slider2_3{
+        .Slider{
+            flex-direction: row-reverse;     
+        }
+        .Discript{
+            justify-content: space-evenly;
+            width: 45%;
+            // align-items: center;
+        }
+        .img_shodow {
+            box-shadow: 0px -300px 90px 160px rgb(21, 62, 245, 0.3),
+            10px -250px 90px 160px  rgb(21, 62, 245, 0.5),
+            10px -250px 90px 160px  rgb(124, 43, 253, 0.3),
+            -60px -370px 90px 160px rgb(124, 43, 253, 0.3);
             }
     }
 

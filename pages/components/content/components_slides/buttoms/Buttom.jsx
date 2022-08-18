@@ -3,6 +3,7 @@ import Styles from './Buttoms.module.scss';
 
 function color (props){
   if(props.violet) return(Styles.violet)
+  if(props.Red) return(Styles.red)
   return(null)
 }
 

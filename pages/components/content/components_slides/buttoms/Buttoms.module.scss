@@ -18,7 +18,16 @@ align-items: center;
 }
 .violet{
     .Buttom{
-        background: linear-gradient(93.66deg, #698DFD -15.49%, #1A3DF5 129.65%);
+        background: linear-gradient(93.66deg, #698DFD -15.49%, #1A3DF5 129.65%);       
+    }
+    .ButtomConteiner{
+        box-shadow: #698DFD;
+    }
+    
+}
+.red{
+    .Buttom{
+        background: linear-gradient(90.08deg, #F35635 0.96%, #772BFC 100%);
     }
     
 }

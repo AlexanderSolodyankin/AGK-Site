@@ -7,6 +7,9 @@ const styleProps = (props) => {
   if(props.Slide5)return(Styles.line_slide5)
   if(props.Slide6)return(Styles.line_slide6)
   if(props.Slide7)return(Styles.line_slide7)
+  if(props.Slide2_1)return(Styles.line_slide2_1)
+  if(props.Slide2_2)return(Styles.line_slide2_2)
+  if(props.Slide2_3)return(Styles.line_slide2_3)
   
   else return(Styles.line_font)
 }

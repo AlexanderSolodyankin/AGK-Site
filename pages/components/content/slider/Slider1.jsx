@@ -21,7 +21,7 @@ const Slider1 = (props) => {
         
         </div>
         <div>
-          <Image src={img.src} width={453} height={624}/>
+          <Image src={img.src} width={344} height={614}/>
             <div className={Styles.img_shodow}></div>
         </div>
       </div>

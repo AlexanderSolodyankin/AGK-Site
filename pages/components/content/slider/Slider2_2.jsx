@@ -17,13 +17,13 @@ const Slider2_2 = (props) => {
       <div className={Styles.Slider}>
         <div className={Styles.Discript}>
           <div>
-          <Title Slide7 content="Магазин" />
+          <Title Slide2_2 content="Магазин" />
           <Subscript content="Каждая полоса дизайн-проекта сверяется с десятком вариантов и выбирается именно та, которая максимально передаст атмосферу бизнеса. Проработанная структура сайта, работает на увеличение продаж и повышение доверия клиентов к бренду. " />
           </div>
-          <Bottom violet />
+          <Bottom Red />
         </div>
         <div>
-          <Image src={img.src} width={300} height={354}/>
+          <Image src={img.src} width={490} height={563}/>
             <div className={Styles.img_shodow}></div>
         </div>
       </div>
