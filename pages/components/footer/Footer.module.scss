@@ -11,29 +11,7 @@
     .conteiner{
         display: flex;
         justify-content: space-evenly;
-        gap: 50px;
-        
-            .phone{
-                padding: 30px;
-                background: url('./media/icons/Телефон.png') no-repeat;
-            }
-            .portfolio{
-                padding: 30px;
-                background: url('./media/icons/Портфолио.png') no-repeat;
-            }
-            .home{
-                padding: 30px;
-                background: url('./media/icons/Домашнаяя.png')no-repeat;
-            }
-            .news{
-                padding: 30px;
-                background: url('./media/icons/Новости.png')no-repeat;
-            }
-            .personArea{
-                padding: 30px;
-                background: url('./media/icons/Личный\ кабинет.png')no-repeat;
-            }
-        
+        gap: 50px;        
     }
     .number{
         box-shadow: 

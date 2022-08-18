@@ -18,7 +18,7 @@ import Slider5 from './slider/Slider5';
 import Slider6 from './slider/Slider6';
 import Slider7 from './slider/Slider7';
 
-import Footer from '../footer/Footer';
+
 
 function Content() {
   return (
@@ -35,6 +35,7 @@ function Content() {
 
         className={Styles.Sliders}
       >
+        
         <SwiperSlide >
           <Slider1 />
         </SwiperSlide >
