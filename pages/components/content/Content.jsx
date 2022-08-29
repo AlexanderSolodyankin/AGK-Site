@@ -29,7 +29,7 @@ function Content() {
     <div className={Styles.Content}>
       <Swiper
         direction={"vertical"}
-        height={660}
+        height={1500}
          spaceBetween={100}
         mousewheel={true}
         pagination={{
@@ -59,7 +59,7 @@ function Content() {
             pagination={{
               clickable: true,
             }}
-            navigation={true}
+            // navigation={true}
             modules={[Autoplay,]}
             class="mySwiper"
             className={Styles.Sliders}
