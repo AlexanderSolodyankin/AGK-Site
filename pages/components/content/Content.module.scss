@@ -1,14 +1,21 @@
 .Content{
-    padding: 10px;
-    height: 40vw;
+    // padding: 10px;
+    height: 56vw;
     display: flex;
     overflow: hidden;
     justify-content: center;
-    margin: 20px;
+    // margin: 20px;
     
 }
 .Sliders{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
 }
 .test{
     color: wheat;
 }
+.footer{
+    z-index: 100;
+}
+

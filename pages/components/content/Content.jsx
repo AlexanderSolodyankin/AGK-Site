@@ -3,6 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import Styles from './Content.module.scss';
 
 import "swiper/css";
+import "swiper/css/bundle";
 import "swiper/css/pagination";
 import { Autoplay, Mousewheel, Pagination } from "swiper";
 
@@ -18,6 +19,9 @@ import Slider5 from './slider/Slider5';
 import Slider6 from './slider/Slider6';
 import Slider7 from './slider/Slider7';
 
+import Header from '../header/Header';
+import Footer from '../footer/Footer';
+
 
 
 function Content() {
@@ -25,7 +29,8 @@ function Content() {
     <div className={Styles.Content}>
       <Swiper
         direction={"vertical"}
-         spaceBetween={30}
+        height={660}
+         spaceBetween={100}
         mousewheel={true}
         pagination={{
           clickable: true
@@ -35,10 +40,13 @@ function Content() {
 
         className={Styles.Sliders}
       >
-        
-        <SwiperSlide >
+        <span slot="container-start"><Header/></span>
+        <span slot="container-end" className={Styles.footer}><Footer/></span>
+          
+        <SwiperSlide  >
           <Slider1 />
         </SwiperSlide >
+        
 
         <SwiperSlide>
           <Swiper
@@ -72,7 +80,7 @@ function Content() {
 
         </SwiperSlide>
 
-        <SwiperSlide>
+        <SwiperSlide >
           <Slider3 />
         </SwiperSlide>
 
